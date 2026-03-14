@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Exchange Calculator</title>
+    </head>
+    <body>
+        <div class="box">
+            <h2>Exchange Calculator</h2>
+
+            <label>Amount</label>
+            <input type="number" id="amount" value="1" min="0" />
+
+            <label>From</label>
+            <select id="from"></select>
+
+            <label>To</label>
+            <select id="to"></select>
+
+            <button onclick="convert()">Convert</button>
+
+            <div id="result"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
