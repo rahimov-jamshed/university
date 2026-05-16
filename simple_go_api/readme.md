@@ -1,5 +1,12 @@
-- [localhost:1234/add?name=ItemName](localhost:1234/add?name=ItemName) # add ItemName
-- [localhost:1234/items](localhost:1234/items)                         # list Items
+- add Item with ItemName
+```
+localhost:1234/add?name=ItemName
+```
+
+- list Items
+```
+localhost:1234/items
+```
 
 resources:
 - https://opyjo.hashnode.dev/building-a-simple-rest-api-in-go
